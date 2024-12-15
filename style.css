@@ -93,11 +93,21 @@ button {
 .mini {
   position: absolute;
   top: 193px;
-  left: -16px;
+  left: 0px;
 }
 .tora {
   position: absolute;
   top: 94px;
   right: 72px;
   border-radius: 20px;
+}
+.nuu {
+  position: absolute;
+  top: 28px;
+  left: 62px;
+}
+.tara {
+  position: absolute;
+  top: 271px;
+  right: 54px;
 }
