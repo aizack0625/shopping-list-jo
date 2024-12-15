@@ -8,6 +8,7 @@
   <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
   <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
   <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/destyle.css@3.0.2/destyle.min.css">
   <link rel="stylesheet" href="style.css">
 </head>
 
@@ -67,6 +68,7 @@
               onChange={handleTextChange}
               ref={inputRef}
               placeholder="買う物を入力するんじょ!"
+              className="addFrom"
             />
             <button>追加じょ</button>
           </form>
@@ -146,8 +148,10 @@
         return (
           <>
             <h1>
+              <img src="./images/mini.png" alt="ミニー" width="50" height="50" className="mini"/>
               買い物リストじょ!
               <button onClick={handlePurgeClick} className="selectDelete">選択削除</button>
+              <img src="./images/tora.png" alt="とらちゃん" width="50" className="tora"/>
             </h1>
             <ul id="todos">
               {todoItems}
