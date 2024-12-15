@@ -28,6 +28,7 @@ h1 {
   padding-bottom: 8px;
   margin-bottom: 10px;
   color: rgba(0, 0, 0, 0.772);
+  position: relative;
 }
 
 ul {
@@ -77,14 +78,26 @@ button {
   background-color: rgba(203, 255, 200, 0.513);
   border-radius: 8px;
   border: 2px solid #0f1213c7;
-  padding: 4px;
+  padding: 8px;
 }
 .deleteBtn {
   background-color: rgba(255, 0, 0, 0.158);
+  padding: 8px;
 }
 .selectDelete {
   background-color: rgba(255, 0, 0, 0.39);
 }
-.checkbox {
-  color: skyblue;
+.addFrom {
+  border: solid 2px;
+}
+.mini {
+  position: absolute;
+  top: 193px;
+  left: -16px;
+}
+.tora {
+  position: absolute;
+  top: 94px;
+  right: 72px;
+  border-radius: 20px;
 }
