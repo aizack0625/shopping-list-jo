@@ -1,0 +1,86 @@
+@charset "utf-8";
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(to bottom, rgb(255, 208, 186), rgba(135, 255, 187, 0.746));
+}
+
+
+.container {
+  width: 400px;
+  margin: 30px auto;
+  background-color: #fffff4;
+  padding: 30px;
+  border-radius: 20px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 20px;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 8px;
+  margin-bottom: 10px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 8px 0;
+  padding: 16px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+
+li input:checked+span {
+  color: #aaa;
+  text-decoration: line-through;
+}
+
+li input {
+  margin-right: 8px;
+}
+
+li label {
+  margin-right: 8px;
+}
+
+form {
+  display: flex;
+  gap: 8px;
+  margin-top: 16px;
+}
+
+form input {
+  flex: 1;
+  padding: 8px;
+  background-color: hsl(60, 100%, 99%);
+  border-radius: 10px;
+}
+
+button {
+  background-color: rgba(203, 255, 200, 0.513);
+  border-radius: 8px;
+}
+.deleteBtn {
+  background-color: rgba(255, 0, 0, 0.158);
+}
+.selectDelete {
+  background-color: rgba(255, 0, 0, 0.39);
+}
+.checkbox {
+  color: skyblue;
+}
