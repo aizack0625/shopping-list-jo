@@ -27,6 +27,7 @@ h1 {
   align-items: center;
   padding-bottom: 8px;
   margin-bottom: 10px;
+  color: rgba(0, 0, 0, 0.772);
 }
 
 ul {
@@ -41,12 +42,13 @@ li {
   align-items: flex-start;
   margin: 8px 0;
   padding: 16px;
-  border: 1px solid #ddd;
+  border: 1px solid #484848;
   border-radius: 10px;
+  font-size: 20px;
 }
 
 li input:checked+span {
-  color: #aaa;
+  color: #000000;
   text-decoration: line-through;
 }
 
@@ -74,6 +76,8 @@ form input {
 button {
   background-color: rgba(203, 255, 200, 0.513);
   border-radius: 8px;
+  border: 2px solid #0f1213c7;
+  padding: 4px;
 }
 .deleteBtn {
   background-color: rgba(255, 0, 0, 0.158);
